@@ -48,11 +48,11 @@ export function BookingForm() {
             <div className="space-y-2">
               <label className="text-slate-600 text-sm">Điểm khởi hành</label>
               <div className="relative">
-                <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 flex size-8 items-center justify-center rounded-full bg-white text-[#D62828] shadow-sm ring-1 ring-[#F8C8C8]">
+                <span className="pointer-events-none absolute left-5 top-1/2 -translate-y-1/2 flex size-8 items-center justify-center rounded-full bg-white text-[#D62828] shadow-sm ring-1 ring-[#F8C8C8]">
                   <MapPin className="w-4 h-4" />
                 </span>
                 <Select value={origin} onValueChange={setOrigin}>
-                  <SelectTrigger className="h-12 w-full rounded-[26px] border border-slate-200 bg-[#F6F7FB] pl-14 pr-4 text-left text-sm font-medium text-slate-900 shadow-sm transition-all focus-visible:border-[#D62828] focus-visible:ring-[#D62828]/20 focus-visible:ring-[3px] data-[state=open]:border-[#D62828]">
+                  <SelectTrigger className="h-12 w-full rounded-[26px] border border-slate-200 bg-[#F6F7FB] pl-[70px] pr-4 text-left text-sm font-medium text-slate-900 shadow-sm transition-all focus-visible:border-[#D62828] focus-visible:ring-[#D62828]/20 focus-visible:ring-[3px] data-[state=open]:border-[#D62828]">
                     <SelectValue placeholder="Chọn điểm khởi hành" className="truncate data-[placeholder]:font-normal data-[placeholder]:text-slate-500" />
                   </SelectTrigger>
                   <SelectContent className="rounded-2xl border border-slate-100 bg-white shadow-2xl shadow-black/10">
@@ -70,11 +70,11 @@ export function BookingForm() {
             <div className="space-y-2">
               <label className="text-slate-600 text-sm">Điểm đến</label>
               <div className="relative">
-                <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 flex size-8 items-center justify-center rounded-full bg-white text-[#D62828] shadow-sm ring-1 ring-[#F8C8C8]">
+                <span className="pointer-events-none absolute left-5 top-1/2 -translate-y-1/2 flex size-8 items-center justify-center rounded-full bg-white text-[#D62828] shadow-sm ring-1 ring-[#F8C8C8]">
                   <MapPin className="w-4 h-4" />
                 </span>
                 <Select value={destination} onValueChange={setDestination}>
-                  <SelectTrigger className="h-12 w-full rounded-[26px] border border-slate-200 bg-[#F6F7FB] pl-14 pr-4 text-left text-sm font-medium text-slate-900 shadow-sm transition-all focus-visible:border-[#D62828] focus-visible:ring-[#D62828]/20 focus-visible:ring-[3px] data-[state=open]:border-[#D62828]">
+                  <SelectTrigger className="h-12 w-full rounded-[26px] border border-slate-200 bg-[#F6F7FB] pl-[70px] pr-4 text-left text-sm font-medium text-slate-900 shadow-sm transition-all focus-visible:border-[#D62828] focus-visible:ring-[#D62828]/20 focus-visible:ring-[3px] data-[state=open]:border-[#D62828]">
                     <SelectValue placeholder="Chọn điểm đến" className="truncate data-[placeholder]:font-normal data-[placeholder]:text-slate-500" />
                   </SelectTrigger>
                   <SelectContent className="rounded-2xl border border-slate-100 bg-white shadow-2xl shadow-black/10">
